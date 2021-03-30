@@ -1,0 +1,50 @@
+*{
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#btn{
+padding: 0.5rem;
+position: fixed;
+top: 0;
+left: 6.5rem;
+background-color: violet;
+border-radius: 0.5rem;
+transition:transform 0.5s ease-in-out;
+
+}
+
+nav.active{
+    transform: translateX(-100%);
+}
+
+#btn.active{
+    transform: translateX(-4.6rem);
+}
+
+
+#nav{
+    position: fixed;
+    top: 0rem;
+    left:0rem;
+    background-color: violet;
+    width: fit-content;
+    height: 100vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    padding: 1rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
